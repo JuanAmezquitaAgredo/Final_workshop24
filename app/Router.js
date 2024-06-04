@@ -1,3 +1,4 @@
+import { NavarLayout } from "./components/private-layout.components";
 import { routes } from "./routes";
 
 export function Router(){
@@ -36,7 +37,8 @@ export function Router(){
          navigateTo('/login')
          return
       }
-      privateRoutes.page()
+      const {content, logic} = privateRoutes.page()
+      NavarLayout(content,logic);
       return
    }
 

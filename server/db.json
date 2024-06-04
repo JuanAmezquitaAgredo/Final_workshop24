@@ -7,5 +7,20 @@
       "password": "U2FsdGVkX1/38YUBgOK7M2P+NsZ+CN6fRAjTdEUBd9g="
     }
   ],
-  "tasks": []
+  "tasks": [
+    {
+      "title": "abrir hueco",
+      "description": "con pala",
+      "priority": "media",
+      "date": "2024-06-19",
+      "id": "22e0"
+    },
+    {
+      "id": "eb5f",
+      "title": "comer",
+      "description": "todo",
+      "priority": "alta",
+      "date": "2024-06-21"
+    }
+  ]
 }
